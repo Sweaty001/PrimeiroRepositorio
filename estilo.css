@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    background-color: aliceblue;
+    box-shadow: 0px 2px 10px #000;
+    width: 100%;
+    padding-left: 1rem;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    color: red;
+}
+#UM{
+    background-color: pink;
+}
+#DOIS{
+    background-color:aquamarine;
+}
+#TRES{
+    background-color: lightblue;
+}
+#QUATRO{
+    background-color: yellowgreen;
+}
+#CINCO{
+    background-color: violet;
+}
+#SEIS{
+    background-color: lightgray;
+}
+section{
+    min-height: 100vh;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    
+}
