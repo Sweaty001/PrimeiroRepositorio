@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vh;
+    height: 100vw;
+    background: url("fundo2.jpg");
+    background-repeat: no-repeat;
+}
+.corredor1{
+    background: url("mega.png");
+    width: calc(958px / 10);
+    height: 99px;
+    position: absolute;
+    top: 41%;
+    animation: correr 1s steps(10) infinite, mover 5s linear infinite;
+}
+    .corredor2{
+    background: url("correr1.png");
+    width: calc(730px / 10);
+    height: 99px;
+    position: absolute;
+    top: 41%;
+    animation: correr1 1s steps(10) infinite, mover1 7s linear infinite;
+    
+}
+@keyframes correr {
+    0%{
+        background-position: 0px;
+    }
+    100%{
+        background-position: -958px;
+    }
+}
+@keyframes mover{
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(1500px);
+    }
+}
+@keyframes mover1{
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(1500px);
+    }
+}
+@keyframes correr1 {
+    0%{
+        background-position: 0px;
+    }
+    100%{
+        background-position: -800px;
+    }
+}
